@@ -150,6 +150,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameTransform: {fileID: 880220340}
   piecePrefab: {fileID: 4727923777718125056, guid: 9fdcdcdcbfa429f4190e002d882c66f8, type: 3}
+  moveSFX: {fileID: 8300000, guid: d1fb1adaa3cc1db49a6784b77e043d82, type: 3}
 --- !u!4 &418083078
 Transform:
   m_ObjectHideFlags: 0
