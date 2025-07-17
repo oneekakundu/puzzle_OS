@@ -8,8 +8,8 @@ public class GameManager : MonoBehaviour
     [SerializeField] private Transform piecePrefab;
 
     [Header("Audio")]
-    [SerializeField] private AudioClip moveSFX;           // Step 1: Add AudioClip reference
-    private AudioSource audioSource;                      // Step 1: Add AudioSource variable
+    [SerializeField] private AudioClip moveSFX;           // Sound effect played when puzzle pieces/tiles move
+    private AudioSource audioSource;                      // AudioSource component for playing sounds
 
     private List<Transform> pieces;
     private int emptyLocation;
